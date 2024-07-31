@@ -1,4 +1,4 @@
-weight = int(input ("What is your weight?: "))
+weight = int(input ("What is your Height?: "))
 unit = input ("(L)pds or (K)gs: ")
 
 if unit.upper() == "L":
@@ -7,3 +7,5 @@ if unit.upper() == "L":
 else :
     converted = weight // 0.45
     print (f" your weight is: {converted}")
+
+time = "I am readyS"
